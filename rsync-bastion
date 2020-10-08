@@ -1,0 +1,69 @@
+#!/bin/bash
+
+#variables
+
+remote_user=ladmin
+date=$(date| cut -d I -f1)
+
+
+
+# if [ ! -e "$HOME"/bastion_backup ]
+# then
+#      mkdir "$HOME"/bastion_backup 
+# fi
+
+# if [ ! -e "$HOME"/nginx_backup ]
+# then
+#      mkdir "$HOME"/nginx_backup
+# fi
+
+
+# rsync -r /etc/ssh/clients/ $HOME/bastion_backup/"$date"
+
+# if [ $? == 0 ]
+# then 
+#      echo "ssh backup Successfull"
+# else 
+#      echo "ssh backup ERROR"
+#      exit
+# fi
+
+# rsync -r /etc/nginx/conf.d/ $HOME/nginx_backup/"$date"
+
+# if [ $? == 0 ]
+# then
+#      echo "nginx backup Successfull"
+# else
+#      echo "ssh backup ERROR"
+#      exit
+# fi
+
+git add /etc/ssh/clients
+git commit -m "$date"
+git remote add origin git@github.com:lalit112288/lalit.git
+git push --set-upstream origin master
+git push
+
+rsync -r --exclude '/etc/ssh/clients/vpn' /etc/ssh/clients/  "$remote_user"@172.16.51.135:/etc/ssh/clients/
+
+if [ $? == 0 ]
+   then
+        echo "ssh sync Successfull"
+   else
+        echo "ssh sync ERROR"
+        exit
+fi
+
+
+rsync -r /etc/nginx/conf.d/  "$remote_user"@172.16.51.135:/etc/nginx/conf.d/
+
+if [ $? == 0 ]
+   then
+        echo "nginx sync Successfull"
+   else
+        echo "nginx  sync ERROR "
+        exit
+fi
+
+# find /$HOME/bastion_backup/* -mtime +30 -exec rm -rf {} \; 2> /dev/null
+# find /$HOME/ngix_backup/* -mtime +30 -exec rm -rf {} \; 2> /dev/null

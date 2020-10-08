@@ -1,0 +1,7 @@
+[http]
+	sslVerify = false
+[user]
+	name = lalit112288
+	email = git.lalit.mydbops@gmail.com
+[push]
+	default = simple

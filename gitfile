@@ -1,0 +1,11 @@
+#!/bin/bash
+
+path=/root
+
+cd path
+git init
+git add .
+git commit -am "latest commit"
+git remote add origin git@github.com:lalit112288/my-repo.git
+git config --global push.default simple
+git push -u origin master

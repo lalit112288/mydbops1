@@ -1,0 +1,59 @@
+[2020.10.03 09:43:45] Launched version: 2004001, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2020.10.03 09:43:45] Executable dir: /home/ladmin/Downloads/telegram/Telegram/, name: Telegram
+[2020.10.03 09:43:45] Initial working dir: /home/ladmin/Downloads/telegram/Telegram/
+[2020.10.03 09:43:45] Working dir: /root/.local/share/TelegramDesktop/
+[2020.10.03 09:43:45] Command line: ./Telegram
+[2020.10.03 09:43:45] Executable path before check: /home/ladmin/Downloads/telegram/Telegram/Telegram
+[2020.10.03 09:43:45] Logs started
+[2020.10.03 09:43:45] Launcher filename: appimagekit_d0788a5ff1070b54aa3348ae053a5a81-Telegram_Desktop.desktop
+[2020.10.03 09:43:45] Checking for XDG Desktop Portal...
+[2020.10.03 09:43:46] XDG Desktop Portal is present!
+[2020.10.03 09:43:46] Getting DE, XDG_CURRENT_DESKTOP: ''
+[2020.10.03 09:43:46] Getting DE, DESKTOP_SESSION: ''
+[2020.10.03 09:43:46] Getting DE, KDE_SESSION_VERSION: ''
+[2020.10.03 09:43:46] Getting DE, GNOME_DESKTOP_SESSION_ID: ''
+[2020.10.03 09:43:46] Getting DE, KDE_FULL_SESSION: ''
+[2020.10.03 09:43:46] DE: Other
+[2020.10.03 09:43:46] Not using XDG Desktop Portal.
+[2020.10.03 09:43:46] Connecting local socket to /tmp/runtime-root/c8a98f2fe164925688f81a251c978b91-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2020.10.03 09:43:46] This is the only instance of Telegram, starting server and app...
+[2020.10.03 09:43:46] Moved logging from '/root/.local/share/TelegramDesktop/log_start0.txt' to '/root/.local/share/TelegramDesktop/log.txt'!
+[2020.10.03 09:43:46] Primary screen DPI: 96
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAOpenSansRegular.ttf' loaded 'DAOpenSansRegular'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAOpenSansRegularItalic.ttf' loaded 'DAOpenSansRegularItalic'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2020.10.03 09:43:46] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2020.10.03 09:43:46] App Info: reading settings...
+[2020.10.03 09:43:46] App Info: reading encrypted settings...
+[2020.10.03 09:43:46] OpenAL Logging Level: (not set)
+[2020.10.03 09:43:47] Audio Playback Devices: Built-in Audio Analog Stereo
+[2020.10.03 09:43:47] Audio Playback Default Device: Built-in Audio Analog Stereo
+[2020.10.03 09:43:47] Audio Capture Devices: Built-in Audio Analog Stereo;Monitor of Built-in Audio Analog Stereo
+[2020.10.03 09:43:47] Audio Capture Default Device: Built-in Audio Analog Stereo
+[2020.10.03 09:43:47] System tray available: [TRUE]
+[2020.10.03 09:43:47] Not using D-Bus global menu.
+[2020.10.03 09:43:47] Not using Unity launcher counter.
+[2020.10.03 09:43:47] App Info: reading accounts info...
+[2020.10.03 09:43:47] App Info: reading encrypted info...
+[2020.10.03 09:43:47] App Info: reading map...
+[2020.10.03 09:43:47] App Info: reading encrypted map...
+[2020.10.03 09:43:47] App Info: could not read encrypted user settings...
+[2020.10.03 09:43:47] App Info: writing encrypted user settings...
+[2020.10.03 09:43:47] App Info: reading encrypted mtp data...
+[2020.10.03 09:43:47] MTP Info: read keys, current: 4, to destroy: 0
+[2020.10.03 09:43:47] Map read time: 77
+[2020.10.03 09:43:47] App Info: reading encrypted mtp config...
+[2020.10.03 09:43:47] Export Info: Destroy top bar by controller removal.
+[2020.10.03 09:43:47] Using Qt tray icon.
+[2020.10.03 09:43:48] Audio Info: recreating audio device and reattaching the tracks
+[2020.10.03 09:43:48] Update Info: Starting loading '/root/.local/share/TelegramDesktop/tupdates/tlinuxupd2004002' from 0 offset.
+[2020.10.03 09:43:48] Update Info: Loading using HTTP from 'https://updates.tdesktop.com/tlinux/tlinuxupd2004002'.
+[2020.10.03 09:43:50] Audio Info: Closing audio playback device.
